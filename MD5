@@ -1,12 +1,12 @@
-9d6f58669268c6895ee8034482a92d40 *DESCRIPTION
+6cadd8f734c7ddf1e715751d4b488807 *DESCRIPTION
 bbfb6c405f19611a7a4906d54fba994b *NAMESPACE
-dd70d6ff528d9dda68d4432c5d179e75 *NEWS.md
+43d4273da7a91a0de0157a79c58c6eba *NEWS.md
 9105120f202b75922a6cee9e0b5a0989 *R/data.R
 a5802e83215959f01e0caaa90a5ef564 *R/docker_names.R
 d392a64dfcb3831f480bb5c09f5a13a5 *R/english_names.R
 e0ef681901465d24f47f9139cb2c086a *R/proceduralnames-package.R
 e3ad5706aaa21a65def837c66d70dc93 *R/spanish_names.R
-e4ec8175dfe5a824ddedfa49324782b2 *README.md
+e0ec066a221dfea4dd72d5771172f035 *README.md
 444160f335b621d7445161acdf0ea016 *data/common_words.rda
 97f95dc103a93d42d1007c018e40c645 *data/docker_adjectives.rda
 178da42b030f049735704740650e0643 *data/docker_names.rda

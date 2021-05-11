@@ -8,7 +8,7 @@
 <!-- badges: start -->
 
 [![Lifecycle:
-maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://lifecycle.r-lib.org/articles/stages.html#maturing)
 [![License: Apache
 2.0](https://img.shields.io/badge/license-Apache-yellowgreen.svg)](https://choosealicense.com/licenses/apache-2.0/)
 [![CRAN
@@ -23,7 +23,8 @@ status](https://github.com/mikemahoney218/proceduralnames/workflows/R-CMD-check/
 <!-- badges: end -->
 
 The goal of proceduralnames is to make it easy to quickly generate
-random names for easy differentiation of objects or observations.
+unique-enough identifier strings for easy differentiation of objects or
+observations.
 
 ## Installation
 
@@ -51,7 +52,7 @@ for its containers:
 ``` r
 library(proceduralnames)
 make_docker_names(1)
-#> [1] "clever_chaum"
+#> [1] "peaceful_morse"
 ```
 
 `make_english_names` and `make_spanish_names` both generate names using
@@ -60,9 +61,9 @@ respectively:
 
 ``` r
 make_english_names(1)
-#> [1] "name_duck_mix"
+#> [1] "window_noun_instant"
 make_spanish_names(1)
-#> [1] "hacerlo_programa_instituciones"
+#> [1] "menor_presente_tanto"
 ```
 
 All three functions can be used to generate multiple names by providing
@@ -75,7 +76,7 @@ between 1 and 10 to the end of each name:
 
 ``` r
 make_docker_names(1, retry = TRUE)
-#> [1] "bold_moser5"
+#> [1] "loving_goldwasser8"
 ```
 
 In addition to these functions, proceduralnames provides the data sets
@@ -84,3 +85,8 @@ each function draws from (namely, `docker_adjectives`, `docker_names`,
 release of the package, so try not to depend on the length and contents
 of each vector remaining constant, but the fundamental shape of each
 object will remain stable.
+
+Note that the emphasis of this package is on generating *human-readable*
+identifiers, not necessarily universally unique strings. If you need
+strings which are functionally universally unique for your application,
+look into the [uuid package](https://cran.r-project.org/package=uuid).
