@@ -52,7 +52,7 @@ for its containers:
 ``` r
 library(proceduralnames)
 make_docker_names(1)
-#> [1] "admiring_knuth"
+#> [1] "optimistic_shirley"
 ```
 
 `make_english_names` and `make_spanish_names` both generate names using
@@ -61,9 +61,9 @@ respectively:
 
 ``` r
 make_english_names(1)
-#> [1] "ready_good_original"
+#> [1] "night_solve_noise"
 make_spanish_names(1)
-#> [1] "libros_siguiente_ayer"
+#> [1] "grandes_silencio_programa"
 ```
 
 All three functions can be used to generate multiple names by providing
@@ -76,7 +76,7 @@ between 1 and 10 to the end of each name:
 
 ``` r
 make_docker_names(1, retry = TRUE)
-#> [1] "loving_hawking5"
+#> [1] "confident_mclean9"
 ```
 
 In addition to these functions, proceduralnames provides the data sets
